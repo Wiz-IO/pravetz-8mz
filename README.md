@@ -14,7 +14,7 @@ Microchip PIC32 and PlatformIO, I hope you find interesting things for you<br>
 ## History, very briefly
 for more [Wikipedia](https://en.wikipedia.org/wiki/Pravetz_computers) & Google
 
-Pravets 8x is a complete and improved copy of Apple ][<br>
+Pravets 8x is a complete and **improved** copy of Apple ][<br>
 Pravetz 82 stands for 1982, before this name was called IMKO 1 & 2<br>
 I won't discuss why it's a copy - times were like that...<br>
 But I will note something else: this platform gave muse and wings to many geniuses and specialists<br>
