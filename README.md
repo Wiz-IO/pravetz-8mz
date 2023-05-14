@@ -12,3 +12,9 @@ For everyone else - the example is a demo of Microchip PIC32 and PlatformIO, I h
 
 ## History, very briefly
 for more [Wikipedia](https://en.wikipedia.org/wiki/Pravetz_computers) & Google
+
+Pravets 8x is a complete and improved copy of Apple ][<br>
+Pravetz 82 stands for 1982, before this name was called IMKO 1 & 2<br>
+I won't discuss why it's a copy - times were like that...<br>
+But I will note something else: this platform gave muse and wings to many geniuses and specialists who created the modern electronic world in which we live.<br>
+Microchip PIC was chosen not by chance - it is one of the first microcontrollers widely used in Bulgaria<br>
