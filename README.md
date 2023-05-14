@@ -8,5 +8,7 @@ Below ( for now ) I will write in Bulgarian:<br>
 The project is aimed at Bulgarian fans and dinosaurs in embedded electronics<br>
 For everyone else - the example is a demo of Microchip PIC32 and PlatformIO, I hope you find interesting things for you<br>
 
+![image](https://www.pravetz.info/images/pravetz/photo-pravetz-8m-1.jpg)
+
 ## History, very briefly
 for more [Wikipedia](https://en.wikipedia.org/wiki/Pravetz_computers) & Google
