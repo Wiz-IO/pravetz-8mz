@@ -10,6 +10,7 @@ uint8 (*bank_readbyte)(uint32);
 void (*bank_writebyte)(uint32, uint8);
 uint8 (*mem_readbyte)(uint32);
 void (*mem_writebyte)(uint32, uint8);
+uint8 *(*mem_dma)(int page, uint32 address);
 
 #ifdef __GNUC__
 #define MOS_JUMPTABLE

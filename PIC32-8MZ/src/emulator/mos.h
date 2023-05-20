@@ -111,11 +111,11 @@ extern void mos_setcontext(mos_context *cpu);
 extern void mos_getcontext(mos_context *cpu);
 
 /* "driver" */
-uint8 (*bank_readbyte)(uint32);
-void (*bank_writebyte)(uint32, uint8);
-uint8 (*mem_readbyte)(uint32);
-void (*mem_writebyte)(uint32, uint8);
-uint8 *(*mem_dma)(int page, uint32 address);
+extern uint8 (*bank_readbyte)(uint32);
+extern void (*bank_writebyte)(uint32, uint8);
+extern uint8 (*mem_readbyte)(uint32);
+extern void (*mem_writebyte)(uint32, uint8);
+extern uint8 *(*mem_dma)(int page, uint32 address);
 
 void nes_setup(void);
 

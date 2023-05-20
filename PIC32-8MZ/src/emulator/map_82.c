@@ -1,12 +1,13 @@
 #include "map.h"
 
-void UpdateLoRes(uint32_t address, uint8_t value);
-
+#if 0
+//void UpdateLoRes(uint32_t address, uint8_t value);
 static void mm_write_video_lo(uint32_t address, uint8_t value)
 {
     MEM[address] = value;
-    UpdateLoRes(address, value);
+    // UpdateLoRes(address, value);
 }
+#endif
 
 const memread_t MAP_82_READ[] = {
 #if 0
