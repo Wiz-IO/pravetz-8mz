@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=../src/board/board.c ../src/board/lcd.c ../src/board/sdcard.c ../src/board/time.c ../src/board/uart.c ../src/common/fonts/glcdfont.c ../src/common/ring/array-utils.c ../src/common/ring/ring-buffer.c ../src/emulator/bios.c ../src/emulator/map.c ../src/emulator/map_82.c ../src/emulator/map_8A.c ../src/emulator/map_8M.c ../src/emulator/map_audio.c ../src/emulator/map_disk.c ../src/emulator/map_kbd.c ../src/emulator/map_video.c ../src/emulator/mos.c ../src/fuses.c ../src/main.c ../mplab/fatfs/ff.c ../mplab/fatfs/ffsystem.c ../mplab/fatfs/ffunicode.c ../mplab/SYS_Cache/sys_devcon_pic32mz.c ../mplab/SYS_Cache/sys_devcon_cache_pic32mz.S
+SOURCEFILES_QUOTED_IF_SPACED=../src/board/board.c ../src/board/lcd.c ../src/board/sdcard.c ../src/board/time.c ../src/board/uart.c ../src/common/fonts/glcdfont.c ../src/common/ring/array-utils.c ../src/common/ring/ring-buffer.c ../src/emulator/bios.c ../src/emulator/map.c ../src/emulator/map_82.c ../src/emulator/map_8A.c ../src/emulator/map_8M.c ../src/emulator/map_audio.c ../src/emulator/map_disk.c ../src/emulator/map_kbd.c ../src/emulator/map_video.c ../src/emulator/mos.c ../mplab/fatfs/ff.c ../mplab/fatfs/ffsystem.c ../mplab/fatfs/ffunicode.c ../mplab/SYS_Cache/sys_devcon_pic32mz.c ../mplab/SYS_Cache/sys_devcon_cache_pic32mz.S ../src/fuses.c ../src/main.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1537666708/board.o ${OBJECTDIR}/_ext/1537666708/lcd.o ${OBJECTDIR}/_ext/1537666708/sdcard.o ${OBJECTDIR}/_ext/1537666708/time.o ${OBJECTDIR}/_ext/1537666708/uart.o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ${OBJECTDIR}/_ext/1573040602/array-utils.o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ${OBJECTDIR}/_ext/1217805007/bios.o ${OBJECTDIR}/_ext/1217805007/map.o ${OBJECTDIR}/_ext/1217805007/map_82.o ${OBJECTDIR}/_ext/1217805007/map_8A.o ${OBJECTDIR}/_ext/1217805007/map_8M.o ${OBJECTDIR}/_ext/1217805007/map_audio.o ${OBJECTDIR}/_ext/1217805007/map_disk.o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ${OBJECTDIR}/_ext/1217805007/map_video.o ${OBJECTDIR}/_ext/1217805007/mos.o ${OBJECTDIR}/_ext/1360937237/fuses.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1613309294/ff.o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1537666708/board.o.d ${OBJECTDIR}/_ext/1537666708/lcd.o.d ${OBJECTDIR}/_ext/1537666708/sdcard.o.d ${OBJECTDIR}/_ext/1537666708/time.o.d ${OBJECTDIR}/_ext/1537666708/uart.o.d ${OBJECTDIR}/_ext/1508715418/glcdfont.o.d ${OBJECTDIR}/_ext/1573040602/array-utils.o.d ${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d ${OBJECTDIR}/_ext/1217805007/bios.o.d ${OBJECTDIR}/_ext/1217805007/map.o.d ${OBJECTDIR}/_ext/1217805007/map_82.o.d ${OBJECTDIR}/_ext/1217805007/map_8A.o.d ${OBJECTDIR}/_ext/1217805007/map_8M.o.d ${OBJECTDIR}/_ext/1217805007/map_audio.o.d ${OBJECTDIR}/_ext/1217805007/map_disk.o.d ${OBJECTDIR}/_ext/1217805007/map_kbd.o.d ${OBJECTDIR}/_ext/1217805007/map_video.o.d ${OBJECTDIR}/_ext/1217805007/mos.o.d ${OBJECTDIR}/_ext/1360937237/fuses.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d ${OBJECTDIR}/_ext/1613309294/ff.o.d ${OBJECTDIR}/_ext/1613309294/ffsystem.o.d ${OBJECTDIR}/_ext/1613309294/ffunicode.o.d ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1537666708/board.o ${OBJECTDIR}/_ext/1537666708/lcd.o ${OBJECTDIR}/_ext/1537666708/sdcard.o ${OBJECTDIR}/_ext/1537666708/time.o ${OBJECTDIR}/_ext/1537666708/uart.o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ${OBJECTDIR}/_ext/1573040602/array-utils.o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ${OBJECTDIR}/_ext/1217805007/bios.o ${OBJECTDIR}/_ext/1217805007/map.o ${OBJECTDIR}/_ext/1217805007/map_82.o ${OBJECTDIR}/_ext/1217805007/map_8A.o ${OBJECTDIR}/_ext/1217805007/map_8M.o ${OBJECTDIR}/_ext/1217805007/map_audio.o ${OBJECTDIR}/_ext/1217805007/map_disk.o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ${OBJECTDIR}/_ext/1217805007/map_video.o ${OBJECTDIR}/_ext/1217805007/mos.o ${OBJECTDIR}/_ext/1613309294/ff.o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o ${OBJECTDIR}/_ext/1360937237/fuses.o ${OBJECTDIR}/_ext/1360937237/main.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1537666708/board.o.d ${OBJECTDIR}/_ext/1537666708/lcd.o.d ${OBJECTDIR}/_ext/1537666708/sdcard.o.d ${OBJECTDIR}/_ext/1537666708/time.o.d ${OBJECTDIR}/_ext/1537666708/uart.o.d ${OBJECTDIR}/_ext/1508715418/glcdfont.o.d ${OBJECTDIR}/_ext/1573040602/array-utils.o.d ${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d ${OBJECTDIR}/_ext/1217805007/bios.o.d ${OBJECTDIR}/_ext/1217805007/map.o.d ${OBJECTDIR}/_ext/1217805007/map_82.o.d ${OBJECTDIR}/_ext/1217805007/map_8A.o.d ${OBJECTDIR}/_ext/1217805007/map_8M.o.d ${OBJECTDIR}/_ext/1217805007/map_audio.o.d ${OBJECTDIR}/_ext/1217805007/map_disk.o.d ${OBJECTDIR}/_ext/1217805007/map_kbd.o.d ${OBJECTDIR}/_ext/1217805007/map_video.o.d ${OBJECTDIR}/_ext/1217805007/mos.o.d ${OBJECTDIR}/_ext/1613309294/ff.o.d ${OBJECTDIR}/_ext/1613309294/ffsystem.o.d ${OBJECTDIR}/_ext/1613309294/ffunicode.o.d ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o.d ${OBJECTDIR}/_ext/1360937237/fuses.o.d ${OBJECTDIR}/_ext/1360937237/main.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1537666708/board.o ${OBJECTDIR}/_ext/1537666708/lcd.o ${OBJECTDIR}/_ext/1537666708/sdcard.o ${OBJECTDIR}/_ext/1537666708/time.o ${OBJECTDIR}/_ext/1537666708/uart.o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ${OBJECTDIR}/_ext/1573040602/array-utils.o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ${OBJECTDIR}/_ext/1217805007/bios.o ${OBJECTDIR}/_ext/1217805007/map.o ${OBJECTDIR}/_ext/1217805007/map_82.o ${OBJECTDIR}/_ext/1217805007/map_8A.o ${OBJECTDIR}/_ext/1217805007/map_8M.o ${OBJECTDIR}/_ext/1217805007/map_audio.o ${OBJECTDIR}/_ext/1217805007/map_disk.o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ${OBJECTDIR}/_ext/1217805007/map_video.o ${OBJECTDIR}/_ext/1217805007/mos.o ${OBJECTDIR}/_ext/1360937237/fuses.o ${OBJECTDIR}/_ext/1360937237/main.o ${OBJECTDIR}/_ext/1613309294/ff.o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o
+OBJECTFILES=${OBJECTDIR}/_ext/1537666708/board.o ${OBJECTDIR}/_ext/1537666708/lcd.o ${OBJECTDIR}/_ext/1537666708/sdcard.o ${OBJECTDIR}/_ext/1537666708/time.o ${OBJECTDIR}/_ext/1537666708/uart.o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ${OBJECTDIR}/_ext/1573040602/array-utils.o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ${OBJECTDIR}/_ext/1217805007/bios.o ${OBJECTDIR}/_ext/1217805007/map.o ${OBJECTDIR}/_ext/1217805007/map_82.o ${OBJECTDIR}/_ext/1217805007/map_8A.o ${OBJECTDIR}/_ext/1217805007/map_8M.o ${OBJECTDIR}/_ext/1217805007/map_audio.o ${OBJECTDIR}/_ext/1217805007/map_disk.o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ${OBJECTDIR}/_ext/1217805007/map_video.o ${OBJECTDIR}/_ext/1217805007/mos.o ${OBJECTDIR}/_ext/1613309294/ff.o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ${OBJECTDIR}/_ext/1397801412/sys_devcon_cache_pic32mz.o ${OBJECTDIR}/_ext/1360937237/fuses.o ${OBJECTDIR}/_ext/1360937237/main.o
 
 # Source Files
-SOURCEFILES=../src/board/board.c ../src/board/lcd.c ../src/board/sdcard.c ../src/board/time.c ../src/board/uart.c ../src/common/fonts/glcdfont.c ../src/common/ring/array-utils.c ../src/common/ring/ring-buffer.c ../src/emulator/bios.c ../src/emulator/map.c ../src/emulator/map_82.c ../src/emulator/map_8A.c ../src/emulator/map_8M.c ../src/emulator/map_audio.c ../src/emulator/map_disk.c ../src/emulator/map_kbd.c ../src/emulator/map_video.c ../src/emulator/mos.c ../src/fuses.c ../src/main.c ../mplab/fatfs/ff.c ../mplab/fatfs/ffsystem.c ../mplab/fatfs/ffunicode.c ../mplab/SYS_Cache/sys_devcon_pic32mz.c ../mplab/SYS_Cache/sys_devcon_cache_pic32mz.S
+SOURCEFILES=../src/board/board.c ../src/board/lcd.c ../src/board/sdcard.c ../src/board/time.c ../src/board/uart.c ../src/common/fonts/glcdfont.c ../src/common/ring/array-utils.c ../src/common/ring/ring-buffer.c ../src/emulator/bios.c ../src/emulator/map.c ../src/emulator/map_82.c ../src/emulator/map_8A.c ../src/emulator/map_8M.c ../src/emulator/map_audio.c ../src/emulator/map_disk.c ../src/emulator/map_kbd.c ../src/emulator/map_video.c ../src/emulator/mos.c ../mplab/fatfs/ff.c ../mplab/fatfs/ffsystem.c ../mplab/fatfs/ffunicode.c ../mplab/SYS_Cache/sys_devcon_pic32mz.c ../mplab/SYS_Cache/sys_devcon_cache_pic32mz.S ../src/fuses.c ../src/main.c
 
 
 
@@ -123,294 +123,294 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1537666708/board.o: ../src/board/board.c  .generated_files/flags/default/8d34e35a525e991720ba1e596a11cf81d1529812 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/board.o: ../src/board/board.c  .generated_files/flags/default/17f2f46d9b00755a846c8461e3a2f95c08559e9a .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/board.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/board.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/board.o.d" -o ${OBJECTDIR}/_ext/1537666708/board.o ../src/board/board.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/board.o.d" -o ${OBJECTDIR}/_ext/1537666708/board.o ../src/board/board.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/lcd.o: ../src/board/lcd.c  .generated_files/flags/default/bfac595ed3b2d432996edfc2e429f5466a1d64b3 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/lcd.o: ../src/board/lcd.c  .generated_files/flags/default/dbffcea2b1893c08c795c513ec7bd05cc9e525ec .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/lcd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/lcd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/lcd.o.d" -o ${OBJECTDIR}/_ext/1537666708/lcd.o ../src/board/lcd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/lcd.o.d" -o ${OBJECTDIR}/_ext/1537666708/lcd.o ../src/board/lcd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/sdcard.o: ../src/board/sdcard.c  .generated_files/flags/default/e224a872129aa9f3e8d2ab835bee1bc979f6fd73 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/sdcard.o: ../src/board/sdcard.c  .generated_files/flags/default/3fabc14fa768b1de812dc42a13498d0d14e711ee .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/sdcard.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/sdcard.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/sdcard.o.d" -o ${OBJECTDIR}/_ext/1537666708/sdcard.o ../src/board/sdcard.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/sdcard.o.d" -o ${OBJECTDIR}/_ext/1537666708/sdcard.o ../src/board/sdcard.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/time.o: ../src/board/time.c  .generated_files/flags/default/836f025813c0fb0127889653679d02450f139e59 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/time.o: ../src/board/time.c  .generated_files/flags/default/b4feea9e4cf7b7e742d625e9076175009076847a .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/time.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/time.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/time.o.d" -o ${OBJECTDIR}/_ext/1537666708/time.o ../src/board/time.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/time.o.d" -o ${OBJECTDIR}/_ext/1537666708/time.o ../src/board/time.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/uart.o: ../src/board/uart.c  .generated_files/flags/default/4f152023354bd66905975a71109eae1b72a053ca .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/uart.o: ../src/board/uart.c  .generated_files/flags/default/4f5c54c61af9d98c8e10b6f6cd6fae4d42fbf9ee .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/uart.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/uart.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/uart.o.d" -o ${OBJECTDIR}/_ext/1537666708/uart.o ../src/board/uart.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/uart.o.d" -o ${OBJECTDIR}/_ext/1537666708/uart.o ../src/board/uart.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1508715418/glcdfont.o: ../src/common/fonts/glcdfont.c  .generated_files/flags/default/90fd8b8106e0bccf8cedbe2844662cc3324b2512 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1508715418/glcdfont.o: ../src/common/fonts/glcdfont.c  .generated_files/flags/default/b32719914074219c1445cc96373036247f14fab1 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1508715418" 
 	@${RM} ${OBJECTDIR}/_ext/1508715418/glcdfont.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1508715418/glcdfont.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1508715418/glcdfont.o.d" -o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ../src/common/fonts/glcdfont.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1508715418/glcdfont.o.d" -o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ../src/common/fonts/glcdfont.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1573040602/array-utils.o: ../src/common/ring/array-utils.c  .generated_files/flags/default/93fe81b599d11ab59b72a8587a7809e25f3baa37 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1573040602/array-utils.o: ../src/common/ring/array-utils.c  .generated_files/flags/default/f596ed8a2bb8747dc29038bf1334b634ace8e5a9 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1573040602" 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/array-utils.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/array-utils.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/array-utils.o.d" -o ${OBJECTDIR}/_ext/1573040602/array-utils.o ../src/common/ring/array-utils.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/array-utils.o.d" -o ${OBJECTDIR}/_ext/1573040602/array-utils.o ../src/common/ring/array-utils.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1573040602/ring-buffer.o: ../src/common/ring/ring-buffer.c  .generated_files/flags/default/7a53e3cf9fcee93991c04ff7f7af21ca94698939 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1573040602/ring-buffer.o: ../src/common/ring/ring-buffer.c  .generated_files/flags/default/e123f7db87e9ce9d916cb9d9c57da7da389c828b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1573040602" 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/ring-buffer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d" -o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ../src/common/ring/ring-buffer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d" -o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ../src/common/ring/ring-buffer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/bios.o: ../src/emulator/bios.c  .generated_files/flags/default/1ab9d008c95f0c15e7f59deb74be4caa56f64fa4 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/bios.o: ../src/emulator/bios.c  .generated_files/flags/default/4ef9dcf817abf0320fa796387c32c2bdd3453f9c .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/bios.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/bios.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/bios.o.d" -o ${OBJECTDIR}/_ext/1217805007/bios.o ../src/emulator/bios.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/bios.o.d" -o ${OBJECTDIR}/_ext/1217805007/bios.o ../src/emulator/bios.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map.o: ../src/emulator/map.c  .generated_files/flags/default/e281b3ce4b03bc4b7cc87911200eb739bf4def92 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map.o: ../src/emulator/map.c  .generated_files/flags/default/728c0557218cd483f521d4b3815c0e33cb8db0eb .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map.o.d" -o ${OBJECTDIR}/_ext/1217805007/map.o ../src/emulator/map.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map.o.d" -o ${OBJECTDIR}/_ext/1217805007/map.o ../src/emulator/map.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_82.o: ../src/emulator/map_82.c  .generated_files/flags/default/7ba8c3860f974fd674fcd78f8753a925171bc115 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_82.o: ../src/emulator/map_82.c  .generated_files/flags/default/8f9da26ecad31de9086005fe04eee9370b9a24dc .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_82.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_82.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_82.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_82.o ../src/emulator/map_82.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_82.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_82.o ../src/emulator/map_82.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_8A.o: ../src/emulator/map_8A.c  .generated_files/flags/default/1e57f6cd395fd7e1a10ac743d3d559d0874dcd66 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_8A.o: ../src/emulator/map_8A.c  .generated_files/flags/default/4988059a985b5eadef037e672b5f2a685aa1984b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8A.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8A.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8A.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8A.o ../src/emulator/map_8A.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8A.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8A.o ../src/emulator/map_8A.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_8M.o: ../src/emulator/map_8M.c  .generated_files/flags/default/5e40b5b33ecc38c5a50aaf615689c44c01122c29 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_8M.o: ../src/emulator/map_8M.c  .generated_files/flags/default/36de35c67a1b71741125bec6c3802adc3008006b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8M.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8M.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8M.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8M.o ../src/emulator/map_8M.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8M.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8M.o ../src/emulator/map_8M.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_audio.o: ../src/emulator/map_audio.c  .generated_files/flags/default/e42082c42097636c07b07fd657d47f30f5fec117 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_audio.o: ../src/emulator/map_audio.c  .generated_files/flags/default/807ba72c93d7822af81d0cfc2d15753db1c9e5d0 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_audio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_audio.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_audio.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_audio.o ../src/emulator/map_audio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_audio.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_audio.o ../src/emulator/map_audio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_disk.o: ../src/emulator/map_disk.c  .generated_files/flags/default/d692e82fd8569f6b91959241fd2475493884d1a3 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_disk.o: ../src/emulator/map_disk.c  .generated_files/flags/default/e5f026fbb2e50818e2feb011797dd3c8d70a3d7b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_disk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_disk.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_disk.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_disk.o ../src/emulator/map_disk.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_disk.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_disk.o ../src/emulator/map_disk.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_kbd.o: ../src/emulator/map_kbd.c  .generated_files/flags/default/db1138b4823ce1492ccc28b7f6a093a84bd9aa7f .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_kbd.o: ../src/emulator/map_kbd.c  .generated_files/flags/default/5a666a113bbe9b282e8d7560825207dd0f34f22f .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_kbd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_kbd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_kbd.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ../src/emulator/map_kbd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_kbd.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ../src/emulator/map_kbd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_video.o: ../src/emulator/map_video.c  .generated_files/flags/default/279765e37a2178125e80027a3cf4515047a3b3d3 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_video.o: ../src/emulator/map_video.c  .generated_files/flags/default/292e1381cbff71652f6c3d9da267d57a5190cb33 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_video.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_video.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_video.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_video.o ../src/emulator/map_video.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_video.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_video.o ../src/emulator/map_video.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/mos.o: ../src/emulator/mos.c  .generated_files/flags/default/6dcebd0b1fcec15bf6361406e541c8caf768fb8e .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/mos.o: ../src/emulator/mos.c  .generated_files/flags/default/408465512b20386184888c4e5616fe7819f5af3c .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/mos.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/mos.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/mos.o.d" -o ${OBJECTDIR}/_ext/1217805007/mos.o ../src/emulator/mos.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/mos.o.d" -o ${OBJECTDIR}/_ext/1217805007/mos.o ../src/emulator/mos.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/fuses.o: ../src/fuses.c  .generated_files/flags/default/2e8c3829d8287ba8c010f2f253597ad7dbe76eda .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/fuses.o.d" -o ${OBJECTDIR}/_ext/1360937237/fuses.o ../src/fuses.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/default/a341502e7a56aebac68a0daad0059559bb928c1b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1613309294/ff.o: ../mplab/fatfs/ff.c  .generated_files/flags/default/5c0e84116e604686f5e22d98e7d37519d2ff77c9 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ff.o: ../mplab/fatfs/ff.c  .generated_files/flags/default/ac8c32b3d1fc3a06953b45513df2731d6c130e9a .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ff.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ff.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ff.o.d" -o ${OBJECTDIR}/_ext/1613309294/ff.o ../mplab/fatfs/ff.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ff.o.d" -o ${OBJECTDIR}/_ext/1613309294/ff.o ../mplab/fatfs/ff.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1613309294/ffsystem.o: ../mplab/fatfs/ffsystem.c  .generated_files/flags/default/959e7af1022b9aec696395c7ede0da5127b35ff2 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ffsystem.o: ../mplab/fatfs/ffsystem.c  .generated_files/flags/default/fcb94785fc460c1e07e0d6e341a06af411744b7e .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffsystem.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffsystem.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffsystem.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ../mplab/fatfs/ffsystem.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffsystem.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ../mplab/fatfs/ffsystem.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1613309294/ffunicode.o: ../mplab/fatfs/ffunicode.c  .generated_files/flags/default/3d62117b5f6b344f5c8749210fd9c378eba1d191 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ffunicode.o: ../mplab/fatfs/ffunicode.c  .generated_files/flags/default/fe1ecbee18fdf49ad11c8a42fde807ca7fbd3b7d .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffunicode.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffunicode.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffunicode.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ../mplab/fatfs/ffunicode.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffunicode.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ../mplab/fatfs/ffunicode.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o: ../mplab/SYS_Cache/sys_devcon_pic32mz.c  .generated_files/flags/default/372c69f3c3329b91b685704186fdc8f75ec32a20 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o: ../mplab/SYS_Cache/sys_devcon_pic32mz.c  .generated_files/flags/default/9dde7d5285d1d631a4f56c7cf817375cdb2db736 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1397801412" 
 	@${RM} ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d" -o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ../mplab/SYS_Cache/sys_devcon_pic32mz.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d" -o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ../mplab/SYS_Cache/sys_devcon_pic32mz.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/fuses.o: ../src/fuses.c  .generated_files/flags/default/3af6cba667f0d312b92e939c7df8d5ad740b11d6 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/fuses.o.d" -o ${OBJECTDIR}/_ext/1360937237/fuses.o ../src/fuses.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/default/638ef51eb27a9b0db4be65fd4e206cd6e865f860 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/_ext/1537666708/board.o: ../src/board/board.c  .generated_files/flags/default/dd31dbe8e52f6e2c258b5fcf41930060b5aca15 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/board.o: ../src/board/board.c  .generated_files/flags/default/d62d4e5f30b4dacdda5b38933528216712ee2cd8 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/board.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/board.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/board.o.d" -o ${OBJECTDIR}/_ext/1537666708/board.o ../src/board/board.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/board.o.d" -o ${OBJECTDIR}/_ext/1537666708/board.o ../src/board/board.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/lcd.o: ../src/board/lcd.c  .generated_files/flags/default/f8f557b5c6c189af289ef07ba0248a5bbbf32459 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/lcd.o: ../src/board/lcd.c  .generated_files/flags/default/35b674305ab64b81084f5295feb1b23e5b5016f5 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/lcd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/lcd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/lcd.o.d" -o ${OBJECTDIR}/_ext/1537666708/lcd.o ../src/board/lcd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/lcd.o.d" -o ${OBJECTDIR}/_ext/1537666708/lcd.o ../src/board/lcd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/sdcard.o: ../src/board/sdcard.c  .generated_files/flags/default/944840cbd705b6599b1b9aa7da21f9b0f06ff6f3 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/sdcard.o: ../src/board/sdcard.c  .generated_files/flags/default/16168315c300adc858f88eda1f1a3f195d36db28 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/sdcard.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/sdcard.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/sdcard.o.d" -o ${OBJECTDIR}/_ext/1537666708/sdcard.o ../src/board/sdcard.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/sdcard.o.d" -o ${OBJECTDIR}/_ext/1537666708/sdcard.o ../src/board/sdcard.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/time.o: ../src/board/time.c  .generated_files/flags/default/4ed58af11867defb5ae8e1bf44cb20f2eeadc8c7 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/time.o: ../src/board/time.c  .generated_files/flags/default/d9fcc8ba5674dedff42cd8124026895e71bba028 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/time.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/time.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/time.o.d" -o ${OBJECTDIR}/_ext/1537666708/time.o ../src/board/time.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/time.o.d" -o ${OBJECTDIR}/_ext/1537666708/time.o ../src/board/time.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1537666708/uart.o: ../src/board/uart.c  .generated_files/flags/default/ad7a1324496ef3853367cec3cf733a9be74f373f .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1537666708/uart.o: ../src/board/uart.c  .generated_files/flags/default/efbac397067156f91b6407b580fef8a70c6d8370 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1537666708" 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/uart.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1537666708/uart.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/uart.o.d" -o ${OBJECTDIR}/_ext/1537666708/uart.o ../src/board/uart.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1537666708/uart.o.d" -o ${OBJECTDIR}/_ext/1537666708/uart.o ../src/board/uart.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1508715418/glcdfont.o: ../src/common/fonts/glcdfont.c  .generated_files/flags/default/59ed3de637ace21f6d1645462bb9b5daf888a6fd .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1508715418/glcdfont.o: ../src/common/fonts/glcdfont.c  .generated_files/flags/default/3711f1cb9f5e51e9b9c77e24911005bb56982032 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1508715418" 
 	@${RM} ${OBJECTDIR}/_ext/1508715418/glcdfont.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1508715418/glcdfont.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1508715418/glcdfont.o.d" -o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ../src/common/fonts/glcdfont.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1508715418/glcdfont.o.d" -o ${OBJECTDIR}/_ext/1508715418/glcdfont.o ../src/common/fonts/glcdfont.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1573040602/array-utils.o: ../src/common/ring/array-utils.c  .generated_files/flags/default/5cfb3cabfe489d900cf69254bdbff6e1581dc8ce .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1573040602/array-utils.o: ../src/common/ring/array-utils.c  .generated_files/flags/default/f8219c30e40497409db0dec9aa47bce51e60911f .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1573040602" 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/array-utils.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/array-utils.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/array-utils.o.d" -o ${OBJECTDIR}/_ext/1573040602/array-utils.o ../src/common/ring/array-utils.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/array-utils.o.d" -o ${OBJECTDIR}/_ext/1573040602/array-utils.o ../src/common/ring/array-utils.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1573040602/ring-buffer.o: ../src/common/ring/ring-buffer.c  .generated_files/flags/default/31b0a8baf009037ff77a765301744b3ccd4b0b23 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1573040602/ring-buffer.o: ../src/common/ring/ring-buffer.c  .generated_files/flags/default/9a5a21664f3fd0fea2df210d692a683452d743ea .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1573040602" 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1573040602/ring-buffer.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d" -o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ../src/common/ring/ring-buffer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1573040602/ring-buffer.o.d" -o ${OBJECTDIR}/_ext/1573040602/ring-buffer.o ../src/common/ring/ring-buffer.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/bios.o: ../src/emulator/bios.c  .generated_files/flags/default/61589974b5e3626e1ed4f454ef72b5babad8ef4d .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/bios.o: ../src/emulator/bios.c  .generated_files/flags/default/5431a03d7187249a4763c8d4560e806bd18184b9 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/bios.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/bios.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/bios.o.d" -o ${OBJECTDIR}/_ext/1217805007/bios.o ../src/emulator/bios.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/bios.o.d" -o ${OBJECTDIR}/_ext/1217805007/bios.o ../src/emulator/bios.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map.o: ../src/emulator/map.c  .generated_files/flags/default/4d8d22a4fc35b92b00aa7e454522307ae730b6d .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map.o: ../src/emulator/map.c  .generated_files/flags/default/320b97d0f0598424cbb689eb11f2c0df1e2f3b32 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map.o.d" -o ${OBJECTDIR}/_ext/1217805007/map.o ../src/emulator/map.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map.o.d" -o ${OBJECTDIR}/_ext/1217805007/map.o ../src/emulator/map.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_82.o: ../src/emulator/map_82.c  .generated_files/flags/default/4654935143012710583498365066506771e67b97 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_82.o: ../src/emulator/map_82.c  .generated_files/flags/default/d53879226952483e3f1753fdc0eb960ede9363dc .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_82.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_82.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_82.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_82.o ../src/emulator/map_82.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_82.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_82.o ../src/emulator/map_82.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_8A.o: ../src/emulator/map_8A.c  .generated_files/flags/default/c59074892c7df73006fe04b615dc7ebdd135c191 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_8A.o: ../src/emulator/map_8A.c  .generated_files/flags/default/9e50b9ab4ecc12e3a477befa5ee4f32198704b60 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8A.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8A.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8A.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8A.o ../src/emulator/map_8A.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8A.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8A.o ../src/emulator/map_8A.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_8M.o: ../src/emulator/map_8M.c  .generated_files/flags/default/a4a2aa7bc0c864e6a03ec6b02f1bae2813f5b973 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_8M.o: ../src/emulator/map_8M.c  .generated_files/flags/default/3c278dd97665f262bdfa3fbcc761f0faeda2e0f .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8M.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_8M.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8M.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8M.o ../src/emulator/map_8M.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_8M.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_8M.o ../src/emulator/map_8M.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_audio.o: ../src/emulator/map_audio.c  .generated_files/flags/default/62eefaab3f07df54b188a040a0e541fd1e4afe0c .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_audio.o: ../src/emulator/map_audio.c  .generated_files/flags/default/25d22187f1505c775793676ed6fb1fb483c8f60e .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_audio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_audio.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_audio.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_audio.o ../src/emulator/map_audio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_audio.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_audio.o ../src/emulator/map_audio.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_disk.o: ../src/emulator/map_disk.c  .generated_files/flags/default/fcb77838d258472c20d7eb1c4c22d424952c3c92 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_disk.o: ../src/emulator/map_disk.c  .generated_files/flags/default/3e3f7e46fcf3a14b6c09dc937e7922dff665eb8 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_disk.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_disk.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_disk.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_disk.o ../src/emulator/map_disk.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_disk.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_disk.o ../src/emulator/map_disk.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_kbd.o: ../src/emulator/map_kbd.c  .generated_files/flags/default/cb35f707253e6aa3c2b26c4a4215f863feb14ba2 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_kbd.o: ../src/emulator/map_kbd.c  .generated_files/flags/default/59653ef47670a8328f9a90d10ca2b39bd84f4f59 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_kbd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_kbd.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_kbd.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ../src/emulator/map_kbd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_kbd.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_kbd.o ../src/emulator/map_kbd.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/map_video.o: ../src/emulator/map_video.c  .generated_files/flags/default/ce5b0e7b6fb83b4561ba7b823207a8eb61db2cfb .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/map_video.o: ../src/emulator/map_video.c  .generated_files/flags/default/4d023e23743362200382668dc4a8f8b696d4f391 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_video.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/map_video.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_video.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_video.o ../src/emulator/map_video.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/map_video.o.d" -o ${OBJECTDIR}/_ext/1217805007/map_video.o ../src/emulator/map_video.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1217805007/mos.o: ../src/emulator/mos.c  .generated_files/flags/default/dc22b59de48c7ea769ee5d6b3534f1796e029e3 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1217805007/mos.o: ../src/emulator/mos.c  .generated_files/flags/default/d2f90af17c79d8d78ceea2ff6c8b64ad8b8ccb13 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1217805007" 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/mos.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1217805007/mos.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/mos.o.d" -o ${OBJECTDIR}/_ext/1217805007/mos.o ../src/emulator/mos.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1217805007/mos.o.d" -o ${OBJECTDIR}/_ext/1217805007/mos.o ../src/emulator/mos.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1360937237/fuses.o: ../src/fuses.c  .generated_files/flags/default/db45a807bac9252408efb11386601b2a64affd2e .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/fuses.o.d" -o ${OBJECTDIR}/_ext/1360937237/fuses.o ../src/fuses.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/default/ff935430bfc0af9cd0bdd2bfdb327fa17715e0d6 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
-	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
-	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
-${OBJECTDIR}/_ext/1613309294/ff.o: ../mplab/fatfs/ff.c  .generated_files/flags/default/98338dedee23121255a3b7e0909f1c6b08a766db .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ff.o: ../mplab/fatfs/ff.c  .generated_files/flags/default/ce8242674d61c6e481527fbf4c281df0ab3509c9 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ff.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ff.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ff.o.d" -o ${OBJECTDIR}/_ext/1613309294/ff.o ../mplab/fatfs/ff.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ff.o.d" -o ${OBJECTDIR}/_ext/1613309294/ff.o ../mplab/fatfs/ff.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1613309294/ffsystem.o: ../mplab/fatfs/ffsystem.c  .generated_files/flags/default/5b5bb972addd3e5fc316b82e494aa0e2165dfc4d .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ffsystem.o: ../mplab/fatfs/ffsystem.c  .generated_files/flags/default/7659745fbd5160e859b4095b96774d149c320e18 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffsystem.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffsystem.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffsystem.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ../mplab/fatfs/ffsystem.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffsystem.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffsystem.o ../mplab/fatfs/ffsystem.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1613309294/ffunicode.o: ../mplab/fatfs/ffunicode.c  .generated_files/flags/default/a572f02fc1270c406c19e96b107ee5e9d8894686 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1613309294/ffunicode.o: ../mplab/fatfs/ffunicode.c  .generated_files/flags/default/f54980298b54b7052f6f75add23b55194844493b .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1613309294" 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffunicode.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1613309294/ffunicode.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffunicode.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ../mplab/fatfs/ffunicode.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1613309294/ffunicode.o.d" -o ${OBJECTDIR}/_ext/1613309294/ffunicode.o ../mplab/fatfs/ffunicode.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o: ../mplab/SYS_Cache/sys_devcon_pic32mz.c  .generated_files/flags/default/857885012ada21c595cb54d8a1983a61495a7d9c .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o: ../mplab/SYS_Cache/sys_devcon_pic32mz.c  .generated_files/flags/default/d5a709022831289cdb5f2de5db2aeddb95cb43f4 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
 	@${MKDIR} "${OBJECTDIR}/_ext/1397801412" 
 	@${RM} ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d" -o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ../mplab/SYS_Cache/sys_devcon_pic32mz.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o.d" -o ${OBJECTDIR}/_ext/1397801412/sys_devcon_pic32mz.o ../mplab/SYS_Cache/sys_devcon_pic32mz.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/fuses.o: ../src/fuses.c  .generated_files/flags/default/ce2205c6b7e87669cdcb139ef9e5f4c08b4d07c2 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/fuses.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/fuses.o.d" -o ${OBJECTDIR}/_ext/1360937237/fuses.o ../src/fuses.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/_ext/1360937237/main.o: ../src/main.c  .generated_files/flags/default/967646167e9676b4606c8917936f577749d43515 .generated_files/flags/default/cb90ecca696bc4b82196e137d6ddb149f2aaa209
+	@${MKDIR} "${OBJECTDIR}/_ext/1360937237" 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o.d 
+	@${RM} ${OBJECTDIR}/_ext/1360937237/main.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O1 -fno-common -I"../include" -I"../src" -I"../mplab/fatfs" -I"../mplab/SYS_Cache" -MP -MMD -MF "${OBJECTDIR}/_ext/1360937237/main.o.d" -o ${OBJECTDIR}/_ext/1360937237/main.o ../src/main.c    -DXPRJ_default=$(CND_CONF)  -no-legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 

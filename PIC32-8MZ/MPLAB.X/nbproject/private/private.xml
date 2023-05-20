@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/MCHIP/pravetz-8mz/pravetz-8mz-main/PIC32-8MZ/src/board/board.c</file>
+            <file>file:/D:/MCHIP/pravetz-8mz/pravetz-8mz-main/PIC32-8MZ/src/board/uart.c</file>
+            <file>file:/D:/MCHIP/pravetz-8mz/pravetz-8mz-main/PIC32-8MZ/src/main.c</file>
+            <file>file:/D:/MCHIP/pravetz-8mz/pravetz-8mz-main/PIC32-8MZ/src/board/board.h</file>
+            <file>file:/D:/MCHIP/pravetz-8mz/pravetz-8mz-main/PIC32-8MZ/src/emulator/map_82.c</file>
+        </group>
     </open-files>
 </project-private>
